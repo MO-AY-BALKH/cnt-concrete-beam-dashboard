@@ -1,0 +1,19 @@
+{
+    "material": {
+        "f_c": 40e6,
+        "eps_c1": 0.0022,
+        "eps_cu": 0.0038,
+        "f_t": 2.0e6,
+        "eps_tu": 0.0001,
+        "base_resistivity": 10.0,
+        "gauge_factor": -100.0
+    },
+    "geometry": {
+        "span": 1.0,
+        "width": 0.5,
+        "height": 0.3
+    },
+    "integration": {
+        "n_layers": 500
+    }
+}

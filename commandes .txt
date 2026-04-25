@@ -1,0 +1,14 @@
+dans cmd 
+
+# Utiliser
+python beam_dashboard.py 15000
+
+
+# Utiliser un autre fichier de configuration
+python beam_dashboard.py 20e3 -c my_beam.json
+
+# Sauvegarder les résultats
+python beam_dashboard.py 12345 -o resultat.json
+
+# Mode verbeux pour diagnostique
+python beam_dashboard.py 5000 --log-level DEBUG
